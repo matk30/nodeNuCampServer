@@ -22,10 +22,6 @@ const promotionSchema = new Schema({
         type: Currency,
         required: true,
         min: 0
-    },
-    featured: {
-        type: String,
-        required: true
     }
 }, {
     timestamps: true
